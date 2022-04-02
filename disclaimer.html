@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+  <title>爱电影APP用户使用协议</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      color: #333;
+      font-size: .26rem;
+      font-family: SimSun;
+    }
+
+    .privacy {
+      padding: 0 5%;
+    }
+
+    .privacy .title {
+      font-size: .4rem;
+      text-align: center;
+      padding: .5rem 0 .2rem;
+    }
+
+    strong {
+      display: inline-block;
+      padding: .3rem 0;
+    }
+
+    strong.normal {
+      padding: 0;
+    }
+
+    p {
+      line-height: .48rem;
+    }
+
+    p i {
+      float: left;
+      width: .12rem;
+      height: .12rem;
+      margin-top: .22rem;
+      border-radius: 50%;
+      margin-right: .15rem;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+<script>
+  // 移动端适配,动态设置根节点fontsize大小
+  window.onresize = setHtmlFontSize;
+
+  function setHtmlFontSize() {
+    const htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    console.log('htmlWidth: ', htmlWidth);
+    const htmlDom = document.getElementsByTagName('html')[0];
+    htmlDom.style.fontSize = 50 + 'px';
+  };
+  setHtmlFontSize();
+</script>
+<div class="privacy">
+  <strong>爱电影APP免责申明</strong>
+  <p>本软件为非赢利性站点，所有内容(资源连接、图片、介绍等) 均采集自互联网资源，相关链接已经注明来源!来自于互联网相
+    关站点搜索结果信息。本站本身不参与也绝对不提供任何视频资源的上传,下载,转换和制作影片资源,所有播放连接均由网友采集产生: 本站只是网友引用，相关连接内容版权归原网站所有，影片版权归相
+    关影音公司所有，如有发现侵犯您的权益，请告诉我们，我们会在核 实无误后删除相关内容。</p>
+  <br>
+  <br>
+</div>
+</body>
+
+</html>
